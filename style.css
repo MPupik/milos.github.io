@@ -65,9 +65,9 @@ a:hover, a:active, a:focus {
 }
 	
 header {
-	background-color:#FFF;
-	width:900px;
-	height:150px;
+	background-color:#fff;
+	width:100%;
+	height:120px;
 }
 .sidebar1 {
 	float: right;
@@ -87,8 +87,7 @@ header {
 }
 .content_slide {
 	padding: 10px 0;
-	width: 900px;
-	float: right;
+	float: center;
 }
 .content ul, .content ol {
 	padding: 0 15px 15px 40px; 
@@ -114,7 +113,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 	color: #FFF;
 } */
 footer {
-	height:200px;
+	height:70px;
 	padding: 10px 0;
 	background-color: #0081c5;
 	margin:auto;
@@ -176,6 +175,10 @@ nav {
 .divider {
 	margin-top:-35px;
 }
+
+.margin-nav {
+	margin-right: 35px;
+}
 .medalion {
 	text-align:justify;
 	width:99%;
@@ -187,4 +190,10 @@ nav {
 .medalion_photo{
 	margin-left:60%;
 	margin-top:-10%;
+}
+
+.separator {
+	width: 100%;
+	color: #3f64ff;
+	height: 2px;
 }
